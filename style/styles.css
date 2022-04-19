@@ -17,6 +17,9 @@ a {
   list-style: none;
   border: none;
 }
+.noway {
+  border: #000000;
+}
 p,
 h1,
 h2,
