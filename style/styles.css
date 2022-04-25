@@ -159,6 +159,7 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
+  background-image: url(../images/);
 }
 
 .main-header-button {
@@ -268,10 +269,9 @@ ul {
   flex-direction: row;
   justify-content: space-between;
 }
-.team-list-img {
-  margin-bottom: 30px;
-}
+
 .team-list-block {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 /*------------------------------------FOOTER----------------------------------- */
@@ -315,8 +315,7 @@ ul {
 .portfolio-header {
   display: none;
 }
-.portfolio-rubrication {
-}
+
 .portfolio-rubrication-button {
   font-family: "Roboto";
   font-weight: 500;
@@ -327,6 +326,7 @@ ul {
   color: #212121;
   border: #ffffff;
   border-radius: 4px;
+  padding: 6px 22px;
 }
 .portfolio-rubrication-button:hover {
   background: #2196f3;
@@ -359,6 +359,10 @@ ul {
 .portfolio-projects-img {
   width: 370px;
 }
+.portfolio-rubrication {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 .portfolio-projects-name {
   font-weight: 700;
   font-size: 18px;
@@ -380,7 +384,6 @@ ul {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-bottom: -30px;
-  padding-bottom: 94px;
 }
 .portfolio-projects-item {
   width: calc(100% / 3 - 30px);
